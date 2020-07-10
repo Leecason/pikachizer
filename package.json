@@ -1,0 +1,23 @@
+{
+  "name": "pikachizer",
+  "version": "0.0.1",
+  "description": "Translate some text to the mysterious language spoken by Pikachu! =w=",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leecason/pikachizer"
+  },
+  "main": "pikachizer",
+  "scripts": {
+  },
+  "keywords": [
+    "pikachizer",
+    "pikachu",
+    "pokemon",
+    "pikachu-lang",
+    "皮卡丘",
+    "皮卡丘语"
+  ],
+  "author": "Leecason",
+  "license": "MIT",
+  "homepage": "https://github.com/Leecason/pikachizer"
+}
