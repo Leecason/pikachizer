@@ -1,12 +1,12 @@
 {
   "name": "pikachizer",
   "version": "0.0.1",
-  "description": "Translate some text to the mysterious language spoken by Pikachu! =w=",
+  "description": "Translate English to the mysterious language spoken by Pikachu! =w=",
   "repository": {
     "type": "git",
     "url": "https://github.com/Leecason/pikachizer"
   },
-  "main": "pikachizer",
+  "main": "src/pikachizer.js",
   "scripts": {
     "build": "webpack",
     "gh:page": "sh gh.sh"
