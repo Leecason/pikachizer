@@ -8,7 +8,8 @@
   },
   "main": "pikachizer",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "gh:page": "sh gh.sh"
   },
   "keywords": [
     "pikachizer",

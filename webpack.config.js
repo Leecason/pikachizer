@@ -36,7 +36,7 @@ module.exports = [
     entry: path.resolve(__dirname, 'src/pikachizer.js'),
     output: {
       filename: 'pikachizer.js',
-      path: path.resolve(__dirname, 'docs'),
+      path: path.resolve(__dirname, 'dist'),
       libraryTarget: 'umd',
       library: 'Pikachizer'
     },
@@ -45,19 +45,18 @@ module.exports = [
       minimize: true
     },
   },
-  // docs
   {
     mode: 'production',
     output: {
-      path: path.resolve(__dirname, 'docs'),
+      path: path.resolve(__dirname, 'dist'),
       filename: 'index.js'
     },
-    entry: path.resolve(__dirname, 'docs/source/index.js'),
+    entry: path.resolve(__dirname, 'demo/index.js'),
     module: { rules: RULES },
     plugins: [
       new HtmlWebpackPlugin({
         title: 'Pikachizer',
-        template: path.resolve(__dirname, 'docs/source/index.html'),
+        template: path.resolve(__dirname, 'demo/index.html'),
         filename: 'index.html'
       }),
       new MiniCssExtractPlugin({
