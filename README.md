@@ -1,13 +1,9 @@
 # Pikachizer
 
-一个**英语** -> **皮卡丘语**翻译器 =w=
+一个将**英语**转换为**皮卡丘语**的翻译器 =w=
 
 Translate English to the mysterious language spoken by Pikachu! =w=
 
-## Usage
+<img src="https://github.com/Leecason/pikachizer/raw/master/pikachu.png" width="500">
 
-```js
-const pikachizer = require('pikachizer');
-
-pikachizer.translate('Hello World!') // Pikachu!
-```
+**[👉Demo](https://leecason.github.io/pikachizer/)**

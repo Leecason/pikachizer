@@ -10,6 +10,6 @@ git init
 git add -A
 git commit -m '🎉'
 
-git push -f git@github.com:Leecason/Pikachizer.git master:gh-pages
+git push -f git@github.com:Leecason/pikachizer.git master:gh-pages
 
 cd -
