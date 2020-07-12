@@ -34,7 +34,7 @@ function pika (word) {
     new_word = arr[getRandom(0, arr.length)];
   } else {
     const split = getRandom(1, len);
-    new_word = `${pika(word.substr(0, split))-pika(word.substr(split))}`;
+    new_word = `${pika(word.substr(0, split))}-${pika(word.substr(split))}`;
   }
 
   cache[word] = new_word;
